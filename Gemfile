@@ -1,5 +1,6 @@
 source "https://rubygems.org"
-gem "rspec"
+
+gem "rspec", :group => :test
 
 gem "hashie"
 gem "sinatra", "1.4.4"
